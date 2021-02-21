@@ -16,7 +16,6 @@ public class Piece {
     public static final char WHITE_KING_REPRESENTATION = 'k';
     public static final char BLACK_KING_REPRESENTATION = 'K';
 
-
     private final String color;
     private final char representation;
 
@@ -92,4 +91,5 @@ public class Piece {
     public boolean isPawn() {
         return getRepresentation() == WHITE_PAWN_REPRESENTATION || getRepresentation() == BLACK_PAWN_REPRESENTATION;
     }
+
 }

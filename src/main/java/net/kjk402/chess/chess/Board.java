@@ -42,20 +42,20 @@ public class Board {
         return whitePawnList.size() + blackPawnList.size() + whitePiecesList.size() + blackPiecesList.size();
     }
 
-    public Piece findWhitePawn(int idx) {
-        return whitePawnList.get(idx);
+    public Piece findWhitePawn(int index) {
+        return whitePawnList.get(index);
     }
 
-    public Piece findBlackPawn(int idx) {
-        return blackPawnList.get(idx);
+    public Piece findBlackPawn(int index) {
+        return blackPawnList.get(index);
     }
 
-    public Piece findWhitePiece(int idx) {
-        return whitePiecesList.get(idx);
+    public Piece findWhitePiece(int index) {
+        return whitePiecesList.get(index);
     }
 
-    public Piece findBlackPiece(int idx) {
-        return blackPiecesList.get(idx);
+    public Piece findBlackPiece(int index) {
+        return blackPiecesList.get(index);
     }
 
     public void initialize() {
